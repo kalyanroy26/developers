@@ -1,0 +1,37 @@
+# problem solving
+
+1 strings - string manipulation (index)
+ palindrome,anagram,reverse,substring,longest substring
+ number logic - number manipulation
+ reverse,palindrome
+2 prime,armstrong,perfect,fact,fibb
+3 list - element,max,min.sec-max,sort(asc,desc), unique elements, duplicates remove
+4 dict - access
+
+
+# # number logic
+146 - 1 is a character - number is a single unit and its not iterable
+"kalyan" - it is a collection of characters
+
+1.how to get a char from a number(extraction of a digit - concept)
+
+digit = number%10 (temporary digit extraction)
+number = number//10 (reducing number by removing last digit) 
+
+
+2.how you can form a number with a char 1,4,6 - 146(formation of a number - concept)
+
+we have a formula to form digit with removed characters
+rev = 0
+rev = rev*10 + digit
+
+* Imp Points
+- use while loop while working with numbers
+- take a copy of number for comparision if requires ex: palindrome
+
+
+basic programs:
+# # sum of a number
+# # multiplication of a number
+# # reverse a number
+# # palindrome - 121 
